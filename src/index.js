@@ -22,7 +22,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:3000/api',
+        url: 'https://task-management-api-eqtj.onrender.com/api',
       }
     ],
     components: {
@@ -51,7 +51,7 @@ AppDataSource.initialize()
   .then(() => {
     console.log('Data Source has been initialized!');
     app.use('/api', router);
-    app.listen(3000, () => {
+    app.listen(process.env.PORT || 3000, () => {
       console.log(`Server is running on port ${process.env.PORT || 3000}`);
     });
   })

@@ -18,5 +18,5 @@
     ```
 
 ## Deployment
-The application is deployed at [Hosted Link](https://zuai-six.vercel.app).
+The application is deployed at [Hosted Link](https://task-management-api-eqtj.onrender.com/api-docs).
 
